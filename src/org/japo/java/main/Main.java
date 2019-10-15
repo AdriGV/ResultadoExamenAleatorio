@@ -26,8 +26,15 @@ public final class Main {
     public static final Random RND = new Random();
 
     public static void main(String[] args) {
+        
+        // variable
         boolean resultado;
+        
+        // Generar resultado
         resultado = RND.nextBoolean();
+        
+        
+        // Mensaje
         System.out.printf("Aptitud satisfactoria .....: %b%n" , resultado);
                 
     }
